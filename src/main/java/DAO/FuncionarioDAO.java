@@ -30,8 +30,8 @@ public class FuncionarioDAO {
             
             pstm = conn.prepareStatement(sql);
             pstm.setString(1, objfuncionarioCT.getNome_funcionario());
-            pstm.setString(3, objfuncionarioCT.getEndereco_funcionario());
-            pstm.setString(2, objfuncionarioCT.getEmail());
+            pstm.setString(2, objfuncionarioCT.getEndereco_funcionario());
+            pstm.setString(3, objfuncionarioCT.getEmail());
             
             pstm.execute();
             pstm.close();
