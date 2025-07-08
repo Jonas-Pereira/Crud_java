@@ -9,7 +9,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
-        <exec.mainClass>com.example.crud.Crud</exec.mainClass>
+        <exec.mainClass>view.Login</exec.mainClass>
     </properties>
     
     <dependencies>
@@ -33,7 +33,7 @@
         <artifactId>exec-maven-plugin</artifactId>
         <version>3.1.0</version>
         <configuration>
-          <mainClass>com.example.crud.ConexaoDAO</mainClass>
+          <mainClass>view.Login</mainClass>
         </configuration>
       </plugin>
     </plugins>
