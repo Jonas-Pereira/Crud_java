@@ -159,7 +159,7 @@ public class Login extends javax.swing.JFrame {
         String senha = new String(txtSenha.getPassword());
         
         if(senha.equals("")|| usuario.equals("")){
-          JOptionPane.showMessageDialog(null, "digite");
+          JOptionPane.showMessageDialog(null, "Digite o usuário e a senha.");
         }else{ 
             if (usuario.equals("informatica")&& senha.equals("java")){
                 Cadastro_Funcionario cad = new Cadastro_Funcionario();

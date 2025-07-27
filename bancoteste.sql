@@ -9,5 +9,7 @@ create table Funcionario (
 	email VARCHAR(100)
 );
 
+drop table funcionario;
+
 show tables;
 select * from Funcionario;
