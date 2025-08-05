@@ -22,13 +22,13 @@ public class FuncionarioDAO {
     
     public void cadastrarFuncionario(Funcionario_controller objfuncionarioCT) throws ClassNotFoundException{
          
-        String sql = "insert into funcionario (nome_funcionario, endereco_funcionario, email) values (?,?,?)";
+        String sql1 = "insert into funcionario (nome_funcionario, endereco_funcionario, email) values (?,?,?)";
         
         conn = new ConexaoDAO().canectaBD();
         
         try {
             
-            pstm = conn.prepareStatement(sql);
+            pstm = conn.prepareStatement(sql1);
             pstm.setString(1, objfuncionarioCT.getNome_funcionario());
             pstm.setString(2, objfuncionarioCT.getEndereco_funcionario());
             pstm.setString(3, objfuncionarioCT.getEmail());
