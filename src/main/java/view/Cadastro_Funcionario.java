@@ -72,7 +72,6 @@ public class Cadastro_Funcionario extends javax.swing.JFrame {
         jLabel3.setBackground(new java.awt.Color(102, 102, 102));
         jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel3.setText("CADASTRO Funcionario");
         jLabel3.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         Jbtn_deletar.setText("DELETAR");
